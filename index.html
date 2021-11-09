@@ -5,64 +5,65 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet">
         <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
-        <header>
-            <a href="https://ihorlihus.github.io/goit-markup-hw-01/" 
+        <header class="header">
+            <a class="link" href="https://ihorlihus.github.io/goit-markup-hw-01/" 
             target="_blank" 
             rel="noopener noreferrer">
             WebStudio
             </a>
-                <nav>
-                    <ul>
-                        <li><a href="/index.html">Студия</a></li>
-                        <li><a href="/portfolio.html">Портфолио</a></li>
-                        <li><a href="https://ihorlihus.github.io/goit-markup-hw-01/">Контакты</a></li>
+                <nav class="navigatoin">
+                    <ul class="list">
+                        <li><a class="link header-link" href="/index.html">Студия</a></li>
+                        <li><a class="link header-link" href="/portfolio.html">Портфолио</a></li>
+                        <li><a class="link header-link" href="https://ihorlihus.github.io/goit-markup-hw-01/">Контакты</a></li>
                     </ul>
                 </nav>
-                    <ul>
-                        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <ul class="list">
+                        <li><a class="link contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="link contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
                     </ul>
         </header>
         <main>
-            <section>
-                <h1>Эффективные решения для вашего бизнеса</h1>
-                <button type="button">Заказать услугу</button>
+            <section class="hero">
+                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <button class="hero-btn" type="button"> <span class="text-btn">Заказать услугу</span></button>
             </section>
-            <section>
-                <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Sed ut animi sint, mollitia illo labore quis ducimus optio 
-                    iure unde, soluta voluptate quidem quibusdam atque sit, 
-                    dolorem esse aliquid tenetur.
+            <section class="main">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, consequatur.
                 </h2>
-                <ul>
+                <ul class="list">
                     <li>
-                        <h3>Внимание к деталям</h3>
-                        <p>Идейные соображения, а также 
+                        <h3 class="specials-title">Внимание к деталям</h3>
+                        <p class="specials-text">Идейные соображения, а также 
                             начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li>
-                        <h3>Пунктуальность</h3>
-                        <p>Задача организации, в особенности же рамки и место 
+                        <h3 class="specials-title">Пунктуальность</h3>
+                        <p class="specials-text">Задача организации, в особенности же рамки и место 
                             обучения кадров влечет за собой.</p>
                     </li>
                     <li>
-                        <h3>Планирование</h3>
-                        <p>Равным образом консультация с широким активом в значительной 
+                        <h3 class="specials-title">Планирование</h3>
+                        <p class="specials-text">Равным образом консультация с широким активом в значительной 
                             степени обуславливает.</p>
                     </li>
                     <li>
-                        <h3>Современные технологии</h3>
-                        <p>Значимость этих проблем настолько очевидна, что реализация 
+                        <h3 class="specials-title">Современные технологии</h3>
+                        <p class="specials-text">Значимость этих проблем настолько очевидна, что реализация 
                             плановых заданий.</p>
                     </li>
                 </ul>
             </section>
             <section>
                 <h2>Чем мы занимаемся</h2>
-                    <ul>
+                    <ul class="list">
                         <li>
                             <img src="./images/img1.jpg" 
                             alt="написание кода"
@@ -84,64 +85,64 @@
                     </ul>
             </section>
             <section>
-                <h2>Наша команда</h2>
-                    <ul>
+                <h2 class="team-title">Наша команда</h2>
+                    <ul class="list">
                         <li>
                             <img src="./images/teammate1.jpg" 
                             alt="сотрудник студии"
                             width="270"
                             height="260">
-                            <h3>Игорь Демьяненко</h3>
-                            <p lang="en">Product Designer</p>
+                            <h3 class="name">Игорь Демьяненко</h3>
+                            <p class="position" lang="en">Product Designer</p>
                         </li>
                         <li>
                             <img src="./images/teammate2.jpg" 
                             alt="сотрудник студии" 
                             width="270" 
                             height="260">
-                            <h3>Ольга Репина</h3>
-                            <p lang="en">Frontend Developerr</p>
+                            <h3 class="name">Ольга Репина</h3>
+                            <p class="position" lang="en">Frontend Developerr</p>
                         </li>
                         <li>
                             <img src="./images/teammate3.jpg" 
                             alt="сотрудник студии" 
                             width="270" 
                             height="260">
-                            <h3>Николай Тарасов</h3>
-                            <p lang="en">Marketingr</p>
+                            <h3 class="name">Николай Тарасов</h3>
+                            <p class="position" lang="en">Marketingr</p>
                         </li>
                         <li>
                             <img src="./images/teammate1.jpg" 
                             alt="сотрудник студии" 
                             width="270" 
                             height="260">
-                            <h3>Михаил Ермаков</h3>
-                            <p lang="en">UI Designer</p>
+                            <h3 class="name">Михаил Ермаков</h3>
+                            <p class="position" lang="en">UI Designer</p>
                         </li>
                     
                 </ul>
             </section>
         </main>
-        <footer>
-            <a href="https://ihorlihus.github.io/goit-markup-hw-01/" 
+        <footer class="footer">
+            <a class="link" href="https://ihorlihus.github.io/goit-markup-hw-01/" 
             target="_blank" 
             rel="noopener noreferrer">
             WebStudio
             </a>
             <address>
-                <ul>
+                <ul class="list">
                     <li>
-                        <a href="https://goo.gl/maps/HHxkjhj5mUynRrnk6"
+                        <a class="link footer-address" href="https://goo.gl/maps/HHxkjhj5mUynRrnk6"
                             target="_blank" 
                             rel="noopener noreferrer">
                             г. Киев, пр-т Леси Украинки, 26
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:info@example.com">info@example.com</a>
+                        <a class="link link contacts no-italics" href="mailto:info@example.com">info@example.com</a>
                     </li>
                     <li>
-                        <a href="tel:+380991111111">+38 099 111 11 11</a>
+                        <a class="link link contacts no-italics" href="tel:+380991111111">+38 099 111 11 11</a>
                     </li>
                 </ul>
             </address>
