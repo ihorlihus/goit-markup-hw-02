@@ -108,8 +108,6 @@ border-radius: 4px; */
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.03em;
-  ;
-
   color: var(--main-text-color);
 }
 
@@ -120,7 +118,6 @@ border-radius: 4px; */
   letter-spacing: 0.03em;
 
   color: var(--second-text-color);
-  
 }
 
 /* ---------WORKS------------ */
@@ -178,7 +175,7 @@ border-radius: 4px; */
 
 /* ----------PORTFOLIO------------ */
 .pf-btn {
-    /* font-family: inherit;
+  /* font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
@@ -194,97 +191,87 @@ border-radius: 4px; */
   left: 700px;
   top: 430px; */
 
-
-  
   font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: var(--title-color)
-  position: absolute;
-width: 128px;
-height: 38px;
-left: 576px;
-top: 80px;
+  color: var(--title-color) position absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 80px;
 
-background: var(--accent-bg-color);
-border-radius: 4px;
+  background: var(--accent-bg-color);
+  border-radius: 4px;
 }
 .pf-btn:focus,
 .pf-btn:hover {
-width: 128px;
-line-height: 1.87;
-left: 576px;
-top: 80px;
+  width: 128px;
+  line-height: 1.87;
+  left: 576px;
+  top: 80px;
 
-font-style: normal;
-font-weight: 1.62;
+  font-style: normal;
+  font-weight: 1.62;
 
+  text-align: center;
+  letter-spacing: 0.03em;
 
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: var(--title-color);
-background-color: var(--button-color);
+  color: var(--title-color);
+  background-color: var(--button-color);
 }
 
-.logo-blue{
- 
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
+.logo-blue {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: var(--hover-color);
-
+  color: var(--hover-color);
 }
-.logo-black{
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
+.logo-black {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-
-color: var(--main-text-color);
-
+  color: var(--main-text-color);
 }
 
 .logo-white {
   width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-
-color: var(--title-color);
+  color: var(--title-color);
 }
