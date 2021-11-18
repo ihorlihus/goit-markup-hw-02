@@ -50,7 +50,7 @@ body {
 
 .contacts:hover,
 .contacts:focus {
-  color: var(--hover-color);
+  color: var(--accent-bg-color);
 }
 .visually-hidden {
   position: absolute;
@@ -229,4 +229,7 @@ body {
   line-height: 1, 19;
 
   color: var(--title-color);
+}
+.ptf-link {
+  color: var(--main-text-color);
 }
